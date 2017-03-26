@@ -13,15 +13,14 @@
     android:orientation="horizontal">
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="223dp"
+            android:layout_height="84dp"
             android:id="@+id/Search" />
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="81dp"
             android:id="@+id/ButtonSearch"
             android:text="@string/boutton"/>
-
 
 </LinearLayout>

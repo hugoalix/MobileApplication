@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements OnVideoSelectedLi
     private RecyclerView recyclerView;
     private String query;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,9 +41,12 @@ public class MainActivity extends AppCompatActivity implements OnVideoSelectedLi
 
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        //query=(EditText) findViewById(R.id.);
 
         getInfoVideo();
+
+        Intent intent = new Intent(this, MainActivity.class);
+        EditText editText = (EditText) findViewById(R.id.Search);
+        String query = editText.getText().toString();
     }
 
     public void getInfoVideo() {
