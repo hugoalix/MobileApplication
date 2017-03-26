@@ -43,10 +43,6 @@ public class MainActivity extends AppCompatActivity implements OnVideoSelectedLi
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         getInfoVideo();
-
-        Intent intent = new Intent(this, MainActivity.class);
-        EditText editText = (EditText) findViewById(R.id.Search);
-        String query = editText.getText().toString();
     }
 
     public void getInfoVideo() {
