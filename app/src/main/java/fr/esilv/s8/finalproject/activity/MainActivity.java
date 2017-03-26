@@ -1,11 +1,14 @@
 package fr.esilv.s8.finalproject.activity;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.View;
+import android.widget.EditText;
 
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -37,6 +40,7 @@ public class MainActivity extends AppCompatActivity implements OnVideoSelectedLi
 
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        //query=(EditText) findViewById(R.id.);
 
         getInfoVideo();
     }
@@ -69,6 +73,8 @@ public class MainActivity extends AppCompatActivity implements OnVideoSelectedLi
 
     @Override
     public void onVideoSelected(Item item) {
+        startActivity(new Intent(this,LaunchVideo.class));
 
     }
+
 }

@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="4311a47c0fae4a5bf027975aa11674e3923f3c9f">
+        sha1="61c8835205341fb789e5fb8759ba7784fb1ef1ff">
         <dex dex="/Users/hugoalix/Documents/ESILV/TpESILV/Mobile Application/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_84c64e27f0252f83cc1e8d76e81f1c62e0af4b96/classes.dex" />
     </item>
     <item
@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7c7a60b8ed2b6362cc91360b1d646914b11b9584">
+        sha1="29c687e04c7bbe4181593aeb74aeba6061b9858f">
         <dex dex="/Users/hugoalix/Documents/ESILV/TpESILV/Mobile Application/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1f0b01abd92bc560f0509852ea2b5d1bc77dfd76/classes.dex" />
     </item>
     <item
@@ -162,6 +162,15 @@
         revision="25.0.2"
         sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
         <dex dex="/Users/hugoalix/Documents/ESILV/TpESILV/Mobile Application/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_a70f668283250e587143762065e9f06d43b9ce96/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hugoalix/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/hugoalix/Documents/ESILV/TpESILV/Mobile Application/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_96d2661d73202d83f3515cfbd4fa2068f88c514b/classes.dex" />
     </item>
     <item
         is-multidex="true"

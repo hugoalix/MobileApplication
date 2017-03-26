@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.RecyclerView;
 
 import fr.esilv.s8.finalproject.R;
 
@@ -16,6 +17,8 @@ public class SearchActivity extends AppCompatActivity {
         Intent intent = new Intent(context, SearchActivity.class);
         intent.putExtra(SEARCH, search);
         context.startActivity(intent);
+
+
     }
 
 
