@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements OnVideoSelectedLi
     private String API_KEY = "AIzaSyDDXHteOMvehq0a5W_sMUiJ_uX8ZEqMy94";
     private static final String URL = "https://www.googleapis.com/youtube/v3/search";
     private RecyclerView recyclerView;
+    private static final String SEARCH = "SEARCH";
     private String query;
 
 
@@ -41,6 +42,9 @@ public class MainActivity extends AppCompatActivity implements OnVideoSelectedLi
 
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        query = getIntent().getStringExtra(SEARCH);
+
 
         getInfoVideo();
     }
